@@ -1,0 +1,41 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Dependencies, generated files, editor metadata
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.idea/
+.vscode/
+.workbuddy/
+dist/
+build/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Runtime data, logs and backups
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+mysql_data/
+logs/
+uploads/
+.DS_Store
+Thumbs.db
